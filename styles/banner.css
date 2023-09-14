@@ -1,0 +1,50 @@
+:root{
+    --swiper-pagination-color: #FFFFFF;
+    --swiper-pagination-bullet-size: 6px;
+    --swiper-pagination-bullet-inactive-color: #8A8A8A;
+
+}
+/*.banner__titulo{
+    font-family: 'Roboto Mono', monospace;
+    color: #DBFF00;
+    font-weight: 700;
+    padding: 57px 23px 16px 24px;
+    text-align: center;
+    font-size: 48px;
+}
+
+.banner__texto{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--branco);
+    text-align: center;
+}
+
+.banner__texto strong {
+    font-weight: 900;
+}
+.banner__botao {
+    width: 126px;
+    height: 43px;
+    background: transparent;
+    border: 1px solid var(--branco);
+    border-radius: 65px;
+    font-size: 18px;
+    font-family: var(--fonte-principal);
+    font-weight: 200;
+    color: var(--branco);
+    position: relative;
+    top: 469px;
+    left: 251px;
+}
+*/
+.banner__carrosel{
+    background-color: var(--branco);
+}
+
+.swiper-pagination{
+    padding-left: 32px;
+    padding-right: 300px;
+    padding-bottom: 32px;
+}

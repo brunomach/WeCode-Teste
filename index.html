@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wecode - Teste</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+            <span class="cabecalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <div class="lista-menu__logo">
+                    <img src="./assets/Logo Menu.svg">
+                    <img src="./assets/Fechar Menu.svg">
+                </div>
+                
+                <li class="lista-menu__item__principal">
+                    <a href="#" class="lista-menu__link__imagem">
+                        Café Gamer
+                    </a>
+                    <a class="lista-menu__link__frase">
+                        Perfeito para aquela madrugada de lançamento de jogo novo
+                        <img src="./assets/Seta Lado.svg">
+                    </a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">
+                        Cafés Especiais
+                    <img src="./assets/Seta Baixo.svg">
+                        <ul class="lista-menu__cafes-especiais"> 
+                             <li class="lista-menu__cafes-especiais__item"><a href="#">Café Cyborg</a></li>
+                             <li class="lista-menu__cafes-especiais__item"><a href="#">Café Star Wars</a></li>
+                             <li class="lista-menu__cafes-especiais__item"><a href="#">Café Dark Elf</a></li>
+                             <li class="lista-menu__cafes-especiais__item"><a href="#">Ver Todos</a></li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">
+                        Cafés Tradicionais
+                        <img src="./assets/Seta Baixo.svg">
+                    </a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">
+                        Kits
+                        <img src="./assets/Seta Baixo.svg">
+                    </a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link__wecoffee">Wecoffee Club+</a>
+                </li>
+            </ul>
+            <a href="#"><img src="./assets/procurar 1.svg" class="container__imagem"></a>
+        </div>
+        <img src="./assets/Camada 1.svg">
+        <div class="container">  
+            <a href="#"><img src="./assets/do-utilizador 1.svg" class="container__imagem"></a>
+            <a href="#"><img src="./assets/adicionar-sacola-de-compras 2.svg" class="container__imagem"></a>
+        </div>
+    </header>
+    <section class="banner__carrosel">
+        <!-- Slider main container -->
+        <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"> <img src="./assets/Banner 1.png"></div>
+        <div class="swiper-slide"><img src="./assets/Banner 2.png"></div>
+        ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+    </section>
+    <section class="tipo-cafes">
+            <a><img src="./assets/Especiais.svg" class="imagens__tipo-cafes"> Especiais</a>
+            <a><img src="./assets/Tradicionais.svg" class="imagens__tipo-cafes">Tradicionais</a>   
+            <a><img src="./assets/Kits.svg" class="imagens__tipo-cafes">Kits </a>
+            <a><img src="./assets/Wecoffee.svg" class="imagens__tipo-cafes__club"><strong>Wecoffee Club+</strong></a>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 0,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+</html>

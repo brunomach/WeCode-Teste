@@ -1,0 +1,108 @@
+.cabecalho__menu-hamburguer{
+    width: 16px;
+    height: 16px;
+    background-image: url("../assets/menu-hamburguer\ 1.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem{
+    padding: 16px;
+}
+
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 0%;
+    width: 71.5vw;
+    height: 100%;
+    z-index: 999;
+}
+
+.container__botao{
+    display: none;
+}
+
+.container__botao:checked~.lista-menu {
+    display: block;
+}
+
+.lista-menu__logo{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.37em;
+}
+
+.lista-menu__item__principal{
+    background-image: url(../assets/jogador-se-divertindo-jogando-videogame\ 1.png);
+    font-family :var(--fonte-principal);
+    padding: 124px 25px 16px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.lista-menu__link__imagem {
+    text-decoration: none;
+    font-size: 24px;
+
+}
+
+.lista-menu__link__frase {
+    font-size: 12px;
+    display: flex;
+    gap: 1em;
+}
+
+.lista-menu__item__principal a{
+    color: var(--branco);
+    font-weight: 300;
+}
+
+.lista-menu__item{
+    background-color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    padding: 1em;
+}
+
+.lista-menu__link{
+    text-decoration: none;
+    color: var(--cor-fonte-menu);
+}
+
+.lista-menu__link img{
+    padding-left: 1em;
+}
+.lista-menu__cafes-especiais{
+    display: block;
+}
+
+
+.lista-menu__cafes-especiais__item{
+    padding-top: 1em;
+}
+
+.lista-menu__cafes-especiais__item a{
+    color: var(--cor-fonte-menu);
+    font-weight: 400;
+    font-size: 14px;
+}
+.lista-menu__link__wecoffee {
+    text-decoration: none;
+    color: #0D98E6;
+}
+
+
